@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -299,6 +297,7 @@
       <workItem from="1595822671581" duration="30000" />
       <workItem from="1595917191811" duration="626000" />
       <workItem from="1595918021164" duration="4825000" />
+      <workItem from="1595930234915" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="quyet">
       <created>1594612005801</created>
@@ -328,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595928904836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="quyet">
+      <created>1595930438664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595930438664</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,10 +378,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595695749648" />
-    <state x="471" y="119" key="FileChooserDialogImpl" timestamp="1595928668546">
+    <state x="471" y="119" key="FileChooserDialogImpl" timestamp="1595930401180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="471" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595928668546" />
+    <state x="471" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595930401180" />
     <state x="129" y="55" key="MergeDialog" timestamp="1594567229917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
