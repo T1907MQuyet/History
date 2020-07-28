@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +298,7 @@
       <workItem from="1595819175549" duration="684000" />
       <workItem from="1595822671581" duration="30000" />
       <workItem from="1595917191811" duration="626000" />
-      <workItem from="1595918021164" duration="4208000" />
+      <workItem from="1595918021164" duration="4825000" />
     </task>
     <task id="LOCAL-00001" summary="quyet">
       <created>1594612005801</created>
@@ -314,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595928046100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="quyet">
+      <created>1595928761544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595928761544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="quyet">
+      <created>1595928904836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595928904836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
