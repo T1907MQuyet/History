@@ -93,7 +93,7 @@ class RegisterController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'level' => 1,
+            'level' => 3,
             'status' => 1
         ]);
 
