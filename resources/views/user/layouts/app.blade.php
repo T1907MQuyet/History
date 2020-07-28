@@ -46,7 +46,7 @@
             </div>
             <ul class="col-xs-12 col-sm-7 list-unstyled">
                 <li class="text-right pull-right">
-                    <a href="{{url('contact')}}" title="Liên hệ">Liên hệ</a> - <a href="{{url('tos')}}" title="Terms of Service">Điều khoản</a> - <a href="{{url('sitemap.xml')}}" title="Sitemap" target="_blank">Sơ đồ</a><a class="backtop" href="#backOnTop" rel="nofollow"><span class="glyphicon glyphicon-upload"></span></a>
+                    <a href="{{url('contact')}}" title="Liên hệ">Liên hệ</a>-<a href="{{url('sitemap.xml')}}" title="Sitemap" target="_blank">Sơ đồ</a><a class="backtop" href="#backOnTop" rel="nofollow"><span class="glyphicon glyphicon-upload"></span></a>
                 </li>
                 <li class="hidden-xs tag-list"></li>
             </ul>

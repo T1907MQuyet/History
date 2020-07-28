@@ -71,7 +71,7 @@
 
 
         <div class="form-group {{ $errors->has('txtSource') ? 'has-error' : '' }}">
-            <label>Nguồn truyện</label>
+            <label>Nguồn bài viết</label>
             <input class="form-control" name="txtSource" value="{{ old('txtSource', isset($story) ? $story->source : '') }}" />
             @if($errors->has('txtSource'))
                 <span class="help-block">{{$errors->first('txtSource')}}</span>
@@ -83,7 +83,6 @@
             <select name="selStatus" class="form-control">
                 <option value="0" {{ isset($story) && $story->status == 0 ? 'selected="selected"' : '' }}>Đang cập nhật</option>
                 <option value="1" {{ isset($story) && $story->status == 1 ? 'selected="selected"' : '' }}>Hoàn thành</option>
-                <option value="2" {{ isset($story) && $story->status == 2 ? 'selected="selected"' : '' }} >Ngưng cập nhật</option>
             </select>
         </div>
         @php

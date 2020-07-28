@@ -154,5 +154,8 @@ Route::group(['namespace' => 'ControllerUser', 'middleware' => 'web'], function 
 
 });
 Route::post('comment/{id}','CommentController@postComment');
-//hệ thống slide
-
+/*Thanh toán online*/
+Route::get('/vnpay','vnpayController@indexx')->name("homes");
+Route::post('/create','vnpayController@create');
+Route::get('/vnp-returnpay','vnpayController@returnpay');
+/*Route::post('/online','OnlineController@postonline')->name('online');*/

@@ -97,6 +97,6 @@ class RegisterController extends Controller
             'status' => 1
         ]);
 
-        return redirect()->route('register')->with('success', 'Đăng ký thành công! Giờ đây bạn có thể tự do viết bài,Xin cảm ơn');
+        return redirect()->route('user.login')->with('success', 'Đăng ký thành công!Giờ đây bạn có thể viết bài');
     }
 }

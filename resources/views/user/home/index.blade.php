@@ -34,14 +34,12 @@
             </div>
             {!!  \App\Models\Story::getListNewStories()  !!}
         </div>
-
         {{--Sidebar--}}
         <div class="visible-md-block visible-lg-block col-md-4 text-center col-truyen-side">
             @include('user.widgets.categories')
             @include('user.widgets.ads')
         </div>
     </div>
-
     {!!  \App\Models\Story::getListDoneStories()  !!}
 @endsection
 

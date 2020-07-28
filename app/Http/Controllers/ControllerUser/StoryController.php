@@ -24,7 +24,7 @@ class StoryController extends Controller
     // Bài viết  mới
     public function getListNewStory(Request $request)
     {
-        $stories = ($request->get('filter') == 'full') ? Story::where(['status' => 1, 'active' => 1])->orderBy('updated_at', 'DESC')->paginate(25) : Story::where('active', 1)->orderBy('updated_at', 'DESC')->paginate(25);
+        $stories = ($request->get('filter') == 'full') ? Story::where(['status' => 1, 'active' => 1])->orderBy('updated_at', 'DESC')->paginate(9) : Story::where('active', 1)->orderBy('updated_at', 'DESC')->paginate(25);
         if(!$stories) abort(404);
         $data     = [
             'title'  => 'Bài viết mới',
@@ -35,6 +35,8 @@ class StoryController extends Controller
         ];
         $slide1 = Slide::orderBy("id","ASC")->where("status",2)->get();
         $breadcrumb = [[route('danhsach.truyenmoi'), 'Bài viết mới']];
+        $breadcrumb = [[route('danhsach.truyenmoi'), 'Bài viết mới']];
+
         return view('user.list_story', compact('data', 'breadcrumb','slide1'));
     }
 
@@ -89,7 +91,7 @@ class StoryController extends Controller
             'stories' => $story,
         ];
         $slide1 = Slide::orderBy("id","ASC")->where("status",2)->get();
-
+        $breadcrumb = [[route('category.list.index', $categorys->alias), $categorys->name]];
         $breadcrumb = [[route('category.list.index', $categorys->alias), $categorys->name]];
         return view('user.list_story', compact('data', 'breadcrumb','slide1'));
     }
@@ -116,7 +118,6 @@ class StoryController extends Controller
     public function getListBySearch(Request $r)
     {
         $q = '%' . $r->get('q') . '%';
-
         $story    = Story::where('name', 'like', $q)->orderBy('updated_at', 'DESC')->paginate(25);
         $data     = [
             'title'  => 'Tìm kiếm: '. $r->get('q') . ' ('. $story->count() .')',
@@ -125,9 +126,9 @@ class StoryController extends Controller
             'description' => '',
             'stories' => $story,
         ];
-
+        $slide1 = Slide::orderBy("id","ASC")->where("status",2)->get();
         $breadcrumb = [[route('danhsach.search'), 'Tìm kiếm: '. $r->get('q')]];
-        return view('user.list_story', compact('data', 'breadcrumb'));
+        return view('user.list_story', compact('data', 'breadcrumb','slide1'));
     }
 
     // Hiển thị bv

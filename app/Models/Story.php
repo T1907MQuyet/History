@@ -64,7 +64,7 @@ class Story extends Model
     }
 
     /**
-     * Mẫu lấy truyện đã hoàn thành
+     * Mẫu lấy bài viết đã hoàn thành
      * @return view
      */
     public static function getListDoneStories()

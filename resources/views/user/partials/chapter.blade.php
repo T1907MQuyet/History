@@ -1,10 +1,10 @@
-<div class="chapter-nav" id="chapter-nav-top">
+<div class="chapter-nav" id="chapter-nav-top" style="font-size: 2px">
     <input type="hidden" id="ten-truyen" value="{{ $story->alias }}">
     <input type="hidden" id="truyen-id" value="{{ $story->id }}">
     <input type="hidden" id="chapter-id" value="{{ $chapter->id }}">
     <input type="hidden" id="chapter-bnum" value="">
     <input type="hidden" id="chapter-num" value="{{ $story->id }}">
-    <div class="btn-group">
+    <div class="btn-group" style="font-size: 2px">
         @if($chapterNav['previousChapter'])
             <a class="btn btn-success" href="{{ route('chapter.show', [$story->alias, $chapterNav['previousChapter']->alias])  }}" title="{{$chapterNav['previousChapter']->subname}}" id="prev_chap"><span class="glyphicon glyphicon-chevron-left"></span> <span class="hidden-xs">Chương </span>trước</a>
         @else

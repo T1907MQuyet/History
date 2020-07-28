@@ -6,13 +6,6 @@
         <div class="col-xs-12">
             <div class="box">
                 <div class="box box-primary">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">
-                            <input type="file" name="fImages" value="anh1">
-                            <input type="file" name="fImages" value="anh2">
-                            <input type="file" name="fImages" value="anh3">
-                        </h3>
-                    </div>
                     <!-- /.box-header -->
                     <!-- form start -->
                     <form action="{{ route('admin.setting.update') }}" method="POST" enctype="multipart/form-data">

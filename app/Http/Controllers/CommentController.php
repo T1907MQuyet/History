@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 
-class CommentController extends Controller
+class  CommentController extends Controller
 {
     public  function postComment(Request $request,$id){
         $idTinTuc = $id;

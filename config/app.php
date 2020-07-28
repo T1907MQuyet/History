@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 return [
 
@@ -161,7 +161,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        ConsoleTVs\Charts\ChartsServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -176,11 +175,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // Other service providers…
-        Laravel\Socialite\SocialiteServiceProvider::class,
-        //cloudinary
-        JD\Cloudder\CloudderServiceProvider::class,
-        //QRcode
-        \SimpleSoftwareIO\QrCode\ServiceProvider::class,
 
     ],
 
@@ -234,13 +228,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        // Other aliases…
-        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
-        //cloudinary
-        'Cloudder' => JD\Cloudder\Facades\Cloudder::class,
-        //qrcode
-        //'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class,
-        'QrCode' => SimpleSoftwareIO\QrCode\Facade\QrCode::class,
 
     ],
 

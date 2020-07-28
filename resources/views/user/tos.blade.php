@@ -17,17 +17,6 @@
         </div>
     </div>
     <div class="container single-page">
-        <div class="form-group">
-            <label for="usr">Name:</label>
-            <input type="text" class="form-control" id="usr">
-        </div>
-        <div class="form-group">
-            <label for="emai">Email:</label>
-            <input type="email" class="form-control" id="pwd">
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Gửi</button>
-        </div>
         <div class="fb-comments" data-href="http://globalhistory.abc/tos" data-numposts="5" data-width="1100" ></div>
     </div>
 @endsection
