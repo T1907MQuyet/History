@@ -8752,7 +8752,7 @@ h4,
 
 .chapter .truyen-title {
     display: table;
-    font-size: 24px;
+    font-size: 10px;
     margin: 0 auto 5px;
     text-transform: uppercase;
     font-family: "Roboto Condensed", Tahoma, sans-serif;
@@ -8761,7 +8761,7 @@ h4,
 
 .chapter .chapter-title {
     color: gray;
-    font-size: 16px
+    font-size: 10px;
 }
 
 .chapter hr.chapter-start,
@@ -8787,7 +8787,7 @@ h4,
     font-family: "Palatino Linotype", "Tahoma", "Times New Roman", serif;
     line-height: 180%;
     color: #2B2B2B;
-    font-size: 22px;
+    font-size: 10px;
     text-align: left
 }
 
@@ -8820,7 +8820,7 @@ h4,
 
 .chapter-content h4 {
     font-weight: bold;
-    font-size: 110%
+    font-size: 50%
 }
 
 .chapter .chapter-content.onebreak br:nth-child(2n+2) {
@@ -9542,11 +9542,13 @@ h4,
         content: "Q"
     }
     .chapter-text span {
-        display: none
+        display: none;
+        font-size: 10px;
     }
     .chapter-text:before {
         display: inline;
-        content: ""
+        content: "";
+        font-size: 10px;
     }
     .chapter-nav .form-control {
         width: 145px;

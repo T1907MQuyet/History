@@ -39,7 +39,8 @@ class HomeController extends Controller
      */
     public function contact()
     {
-        return view('user.contact');
+        $slide1 = Slide::orderBy("id","ASC")->where("status",2)->get();
+        return view('user.contact',compact('slide1'));
     }
 
     /**
@@ -61,7 +62,7 @@ class HomeController extends Controller
     public function sendContact(Request $request)
     {
         $data = $request->all();
-        \Mail::send('email.contact', $data, function($m) use ($data){
+        Mail::send('user.email.contact', $data, function($m) use ($data){
             $m->from($data['email'], $data['name']);
             $m->to(\App\Models\Option::getvalue('email_contact'), 'Admin');
             $m->subject($data['subject'] . ' - Từ trang web bài viết');

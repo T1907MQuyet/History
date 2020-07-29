@@ -24,7 +24,7 @@ class StoryController extends Controller
     // Bài viết  mới
     public function getListNewStory(Request $request)
     {
-        $stories = ($request->get('filter') == 'full') ? Story::where(['status' => 1, 'active' => 1])->orderBy('updated_at', 'DESC')->paginate(9) : Story::where('active', 1)->orderBy('updated_at', 'DESC')->paginate(25);
+        $stories = ($request->get('filter') == 'full') ? Story::where(['status' => 1, 'active' => 1])->orderBy('updated_at', 'DESC')->paginate(25) : Story::where('active', 1)->orderBy('updated_at', 'DESC')->paginate(25);
         if(!$stories) abort(404);
         $data     = [
             'title'  => 'Bài viết mới',

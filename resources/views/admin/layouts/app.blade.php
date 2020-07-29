@@ -157,7 +157,7 @@
                 {{--<li><a href="{{ route('admin.leech') }}"><i class="fa fa-pencil"></i> Leech Tool</a></li>--}}
                     <li class="treeview">
                         <a href="#">
-                            <i class="fa fa-book fa-fw"></i>
+                            <i class="fa fa-sliders"></i>
                             <span>Slide</span>
                             <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>

@@ -56,10 +56,10 @@ class Story extends Model
         if($categoryID != 0)
         {
             $category = Category::where('id', $categoryID)->first();
-            $stories = $category->stories()->where('active', 1)->orderBy('updated_at', 'DESC')->skip(0)->take(25)->get();
+            $stories = $category->stories()->where('active', 1)->orderBy('updated_at', 'DESC')->skip(0)->take(9)->get();
         }
         else
-            $stories = Story::where('active', 1)->orderBy('updated_at', 'DESC')->skip(0)->take(25)->get();
+            $stories = Story::where('active', 1)->orderBy('updated_at', 'DESC')->skip(0)->take(9)->get();
         return view('user.templates.new', compact('stories'));
     }
 
