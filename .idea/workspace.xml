@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +172,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T1907M_laravel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -309,6 +307,7 @@
       <workItem from="1596033585845" duration="18000" />
       <workItem from="1596034165014" duration="63000" />
       <workItem from="1596035421668" duration="123000" />
+      <workItem from="1596179178424" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="quyet">
       <created>1594612005801</created>
@@ -380,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596026093466</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="quyet">
+      <created>1596179437889</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596179437889</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,10 +430,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595695749648" />
-    <state x="471" y="119" key="FileChooserDialogImpl" timestamp="1596033599105">
+    <state x="471" y="119" key="FileChooserDialogImpl" timestamp="1596179838273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="471" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596033599105" />
+    <state x="471" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596179838273" />
     <state x="129" y="55" key="MergeDialog" timestamp="1594567229917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
