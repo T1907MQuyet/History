@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet" />
+    <list default="true" id="f5b431ae-c92f-44ce-b32b-7004ea7e9efb" name="Default Changelist" comment="quyet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +309,7 @@
       <workItem from="1596033585845" duration="18000" />
       <workItem from="1596034165014" duration="63000" />
       <workItem from="1596035421668" duration="123000" />
-      <workItem from="1596179178424" duration="671000" />
+      <workItem from="1596179178424" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="quyet">
       <created>1594612005801</created>
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596179437889</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="quyet">
+      <created>1596179862153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596179862153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
